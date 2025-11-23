@@ -46,11 +46,6 @@ A modern, responsive real-time chat application built with **Node.js**, **Expres
 5.  **Open in Browser**
     Visit `http://localhost:3000` to start chatting!
 
-## 📸 Screenshots
-
-| Login Page | Chat Interface |
-|:---:|:---:|
-| *(Add screenshot here)* | *(Add screenshot here)* |
 
 ## 🤝 Contributing
 
