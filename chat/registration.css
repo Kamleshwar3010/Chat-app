@@ -1,0 +1,96 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form {
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+strong {
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="phone"],
+input[type="password"] {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Radio buttons container */
+div:has(input[type="radio"]) {
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+button {
+    padding: 12px;
+    background-color: #764ba2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #5a367e;
+}
+
+h4 {
+    color: white;
+    margin-top: 20px;
+}
+
+a button {
+    background-color: transparent;
+    border: 2px solid white;
+    margin-top: 10px;
+    width: auto;
+    padding: 10px 20px;
+}
+
+a button:hover {
+    background-color: white;
+    color: #764ba2;
+}
+
+@media (max-width: 480px) {
+    .form {
+        padding: 20px;
+    }
+}

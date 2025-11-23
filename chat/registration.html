@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chat Registration</title>
+    <link rel="stylesheet"type="text/css"href="registration.css">
+</head>
+<body>
+    <h1>welcome to chat registration page</h1>
+    <!-- form action should be same route as in app.post() -->
+    <form action="/register" method="post" class="form">
+       <div><strong id="i1">Name:</strong><input type="text" name="name" placeholder="Enter Your Name" required></div>
+       <div><strong id="i2">Gender: </strong>
+        M<input id="id2" type="radio" value="Male" name="gender" required> 
+        F<input id="id2" type="radio" value="Female" name="gender"  required>
+        O<input id="id2" type="radio" value="Other" name="gender"  required> </div>
+       <div><strong id="i3">E-mail:</strong><input type="email" name="email" placeholder="example@gmail.com" required></div>
+       <div><strong id="i4">Phone:</strong><input type="phone" name="phone" placeholder="Enter Your Number" required></div>
+       <div><strong id="i5">Password:</strong><input type="password" name="pass" placeholder="Enter Password" required></div>
+       <div><strong>Confirm Password:</strong><input type="password" name="conpass" placeholder="Re-Enter Password" required></div>
+       <button type="submit">Register Now</button>
+    </form>
+    <h4>ALREDY A MEMBER PLEASE LOGIN</h6>
+    <a href="login.html"><button type="submit" id="btn">login </button></a>
+</body>
+<script src="./registor.js"></script>
+</html>
